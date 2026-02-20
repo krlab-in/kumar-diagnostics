@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUMAR DIAGNOSTICS & PATHOLAB | India's Trusted Lab in Punsia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root { --main-blue: #4facfe; --deep-blue: #004a99; --accent-yellow: #ffcc00; --soft-bg: #f8fbff; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--soft-bg); color: #333; overflow-x: hidden; }
+        
+        /* Premium Header & Hero */
+        .top-header { background: linear-gradient(135deg, #4facfe 0%, #004a99 100%); color: white; padding: 60px 0 100px; position: relative; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; }
+        .nav-brand-text { font-size: 2.8rem; font-weight: 900; letter-spacing: 1px; text-shadow: 2px 4px 6px rgba(0,0,0,0.3); }
+        .floating-badge { background: var(--accent-yellow); color: #000; padding: 5px 15px; border-radius: 50px; font-weight: 700; font-size: 0.9rem; margin-bottom: 15px; display: inline-block; }
+
+        /* Statistics Counter */
+        .stat-card { background: white; border-radius: 20px; padding: 30px; text-align: center; box-shadow: 0 10px 30px rgba(0,74,153,0.1); border-bottom: 4px solid var(--main-blue); }
+        .stat-number { font-size: 2.5rem; font-weight: 800; color: var(--deep-blue); }
+
+        /* Facilities Section Style */
+        .facilities-box { background: rgba(255, 255, 255, 0.1); border-radius: 25px; padding: 30px; border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(10px); }
+        .facility-item { font-size: 1.1rem; margin-bottom: 10px; list-style: none; font-weight: 500; display: flex; align-items: center; }
+        .facility-item i { margin-right: 12px; color: var(--accent-yellow); }
+
+        /* Search & Info Container */
+        .search-container { margin-top: -80px; z-index: 100; position: relative; }
+        .info-card { border: none; border-radius: 30px; box-shadow: 0 20px 50px rgba(0,0,0,0.15); background: white; overflow: hidden; }
+        
+        /* Professional Test Cards */
+        .test-card { border-radius: 25px; border: 1px solid #e1eefb; background: white; transition: 0.4s ease-in-out; position: relative; overflow: hidden; height: 100%; padding: 30px !important; }
+        .test-card:hover { transform: translateY(-15px); border-color: var(--main-blue); box-shadow: 0 30px 60px rgba(0,74,153,0.15); }
+        .discount-badge { position: absolute; top: 20px; right: 20px; background: #28a745; color: #fff; font-weight: 700; padding: 6px 15px; border-radius: 50px; font-size: 0.85rem; }
+
+        /* Why Choose Us Section */
+        .feature-icon { width: 70px; height: 70px; background: #eef7ff; color: var(--deep-blue); border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; margin: 0 auto 20px; transition: 0.3s; }
+        .feature-box:hover .feature-icon { background: var(--deep-blue); color: white; transform: rotateY(360deg); }
+
+        /* Footer & Social */
+        footer { background: #0a0a0a; color: white; padding: 80px 0 20px; border-top: 8px solid var(--main-blue); }
+        .instagram-btn { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366); color: white !important; border: none; font-weight: bold; border-radius: 15px; padding: 15px; text-transform: uppercase; letter-spacing: 1px; }
+        .call-btn { background: var(--accent-yellow); color: #000; font-weight: 800; border-radius: 15px; font-size: 1.2rem; transition: 0.3s; }
+        .call-btn:hover { background: #fff; transform: scale(1.05); }
+        .note-text { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px; opacity: 0.7; border-left: 3px solid var(--accent-yellow); padding-left: 15px; }
+    </style>
+</head>
+<body>
+
+<header class="top-header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 mb-5 mb-lg-0 text-center text-lg-start">
+                <span class="floating-badge">✨ Award Winning Diagnostic Center</span>
+                <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-4">
+                    <i class="fas fa-microscope fa-5x me-4 text-white"></i>
+                    <div>
+                        <h1 class="nav-brand-text mb-0">KUMAR DIAGNOSTICS & PATHOLAB</h1>
+                        <p class="tagline mb-0 mt-2">🩺 Advanced Diagnostics for Better Health</p>
+                    </div>
+                </div>
+                <div class="ms-lg-1">
+                    <p class="mb-3 fs-5 opacity-90">📍 <b>Railway Station Road • Punsia • Banka, Bihar – 813109</b></p>
+                    <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+                        <a href="tel:9162502006" class="btn call-btn px-4 py-2">📞 9162502006</a>
+                        <a href="tel:8210075280" class="btn call-btn px-4 py-2">📞 8210075280</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="facilities-box">
+                    <h3 class="fw-bold mb-4 border-bottom pb-2">Our Specialized Units 🔬</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <li class="facility-item"><i class="fas fa-check-circle"></i> Hematology</li>
+                            <li class="facility-item"><i class="fas fa-check-circle"></i> Endocrinology</li>
+                            <li class="facility-item"><i class="fas fa-check-circle"></i> Microbiology</li>
+                        </div>
+                        <div class="col-6">
+                            <li class="facility-item"><i class="fas fa-check-circle"></i> Biochemistry</li>
+                            <li class="facility-item"><i class="fas fa-check-circle"></i> Serology</li>
+                            <li class="facility-item"><i class="fas fa-check-circle"></i> Clin.Pathology</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container search-container">
+    <div class="card info-card p-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-md-7 border-md-end">
+                <h2 class="fw-bold mb-4">Book Your Health Test 🩸</h2>
+                <div class="input-group input-group-lg shadow-sm">
+                    <span class="input-group-text bg-white border-end-0"><i class="fas fa-search text-primary"></i></span>
+                    <input type="text" id="testInput" class="form-control border-start-0" placeholder="Search 500+ Tests (CBC, Sugar, Thyroid...)" onkeyup="searchTest()">
+                </div>
+                <p class="text-muted mt-3"><i class="fas fa-bolt text-warning"></i> Reports ready within 24 hours for most tests.</p>
+            </div>
+            <div class="col-md-5">
+                <div class="d-grid gap-3">
+                    <a href="https://www.instagram.com/fwdxz?igsh=dHp2MWRyY2JyYnNi" target="_blank" class="btn instagram-btn shadow">
+                        <i class="fab fa-instagram fa-lg me-2"></i> Follow @fwdxz on Instagram
+                    </a>
+                    <button class="btn btn-dark btn-lg py-3 fw-bold rounded-4" onclick="window.open('https://forms.google.com')">
+                        <i class="fas fa-upload me-2"></i> UPLOAD PRESCRIPTION
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row g-4 text-center">
+        <div class="col-md-3">
+            <div class="stat-card">
+                <div class="stat-number">10K+</div>
+                <div class="fw-bold text-muted">Patients Served</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stat-card">
+                <div class="stat-number">500+</div>
+                <div class="fw-bold text-muted">Test Profiles</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stat-card">
+                <div class="stat-number">100%</div>
+                <div class="fw-bold text-muted">Accurate Reports</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stat-card">
+                <div class="stat-number">24/7</div>
+                <div class="fw-bold text-muted">WhatsApp Support</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5 py-5 text-center">
+    <h2 class="fw-bold mb-5">Why Patients Choose Kumar Patholab? 🩺</h2>
+    <div class="row g-4">
+        <div class="col-md-4 feature-box">
+            <div class="feature-icon"><i class="fas fa-vial"></i></div>
+            <h4>Modern Equipment</h4>
+            <p class="text-muted">High-precision automated machines for zero-error results.</p>
+        </div>
+        <div class="col-md-4 feature-box">
+            <div class="feature-icon"><i class="fas fa-user-md"></i></div>
+            <h4>Expert Doctors</h4>
+            <p class="text-muted">Reports verified by experienced clinical pathologists.</p>
+        </div>
+        <div class="col-md-4 feature-box">
+            <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+            <h4>Hygiene First</h4>
+            <p class="text-muted">Strict NABL protocols for sample collection & storage.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container mb-5">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-5 gap-3">
+        <h2 class="fw-bold m-0 border-start border-primary border-5 ps-3">🧪 Popular Health Packages</h2>
+        <div class="d-flex gap-2">
+            <span class="badge bg-success-subtle text-success border border-success px-3 py-2">NABL Standard ✅</span>
+            <span class="badge bg-primary-subtle text-primary border border-primary px-3 py-2">Home Collection Available 🏠</span>
+        </div>
+    </div>
+    <div class="row g-4" id="testGrid">
+        </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-md-4">
+                <h3 class="text-info fw-bold mb-4">KUMAR PATHOLAB</h3>
+                <p class="mb-2 fs-5">📍 Railway Station Road, Punsia Bazar, Banka, Bihar</p>
+                <p class="mb-2">📧 krpatholab@gmail.com</p>
+                <p class="mb-4">⏱️ <b>Working Hours: 07:00 AM - 08:00 PM</b></p>
+                <div class="d-flex gap-4">
+                    <a href="https://www.instagram.com/fwdxz?igsh=dHp2MWRyY2JyYnNi" class="text-white fs-1"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/919162502006" class="text-white fs-1"><i class="fab fa-whatsapp"></i></a>
+                    <a href="tel:9162502006" class="text-white fs-1"><i class="fas fa-phone-square"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4 text-center border-start border-end border-secondary px-lg-5">
+                <h4 class="text-warning fw-bold mb-4">⏰ OPERATIONAL HOURS</h4>
+                <div class="p-4 bg-white bg-opacity-10 rounded-4">
+                    <div class="d-flex justify-content-between mb-2"><span>Monday - Saturday:</span> <b>07:00 AM - 08:00 PM</b></div>
+                    <div class="d-flex justify-content-between text-info"><span>Sunday:</span> <b>08:00 AM - 02:00 PM</b></div>
+                </div>
+                <p class="mt-4 text-muted small">Note: Working Hours are 10:00AM-5:00PM for special consultation sessions.</p>
+            </div>
+            <div class="col-md-4 text-md-end">
+                <h4 class="text-info fw-bold mb-4">EMERGENCY ASSISTANCE</h4>
+                <h1 class="fw-bold mb-1 display-5">9162502006</h1>
+                <h2 class="fw-bold text-warning mb-4">8210075280</h2>
+                <div class="note-text text-start text-md-end">
+                    ɴᴏᴛᴇ: ᴛʜɪꜱ ʀᴇᴩᴏʀᴛ ɪꜱ ɪɴᴛᴇɴᴅᴇᴅ ꜰᴏʀ ᴅɪᴀɢɴᴏꜱᴛɪᴄ ᴀꜱꜱɪꜱᴛᴀɴᴄᴇ ᴀɴᴅ ʀᴇqᴜɪʀᴇꜱ ᴄʟɪɴɪᴄᴀʟ ᴄᴏʀʀᴇʟᴀᴛɪᴏɴ. ᴛʜᴇ ʟᴀʙᴏʀᴀᴛᴏʀy ᴀᴄᴄᴇᴩᴛꜱ ɴᴏ ʟɪᴀʙɪʟɪᴛy ꜰᴏʀ ᴅɪꜱᴄʀᴇᴩᴀɴᴄɪᴇꜱ ʀᴇꜱᴜʟᴛɪɴɢ ꜰʀᴏᴍ ɪᴍᴩʀᴏᴩᴇʀ ꜱᴩᴇᴄɪᴍᴇɴ ᴄᴏʟʟᴇᴄᴛɪᴏɴ, ꜱᴛᴏʀᴀɢᴇ, ᴏʀ ᴛʀᴀɴꜱɪᴛ.
+                </div>
+            </div>
+        </div>
+        <hr class="my-5 border-secondary opacity-25">
+        <div class="text-center text-muted small">
+            <p>© 2026 Kumar Diagnostics & Patholab | Precision in Every Drop 🩺</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const tests = [
+        { name: "CBC (Complete Blood Count)", price: 300, old: 375, icon: "🩸", cat: "Hematology", det: "Includes Hemoglobin, TLC, DLC & Platelets" },
+        { name: "Sugar Fasting / PP / Random", price: 50, old: 80, icon: "🧪", cat: "Biochemistry", det: "Essential for Diabetes Monitoring" },
+        { name: "Thyroid Profile (T3, T4, TSH)", price: 650, old: 850, icon: "🧬", cat: "Endocrinology", det: "Comprehensive Thyroid Hormones Check" },
+        { name: "Lipid Profile (Cholesterol)", price: 750, old: 1000, icon: "❤️", cat: "Biochemistry", det: "Heart Health & Cholesterol Levels" },
+        { name: "Liver Function Test (LFT)", price: 900, old: 1200, icon: "🔬", cat: "Biochemistry", det: "Liver Enzymes & Bilirubin Analysis" },
+        { name: "Kidney Function Test (KFT)", price: 850, old: 1100, icon: "🧪", cat: "Biochemistry", det: "Urea, Creatinine & Uric Acid Check" },
+        { name: "Vitamin B12 / D3 Combo", price: 1200, old: 1800, icon: "☀️", cat: "Special", det: "Vitamin Deficiency Screening" },
+        { name: "HBA1C (3 Months Average)", price: 550, old: 750, icon: "🩸", cat: "Endocrinology", det: "Long-term Glucose Control Test" },
+        { name: "Urine Routine & Microscopy", price: 150, old: 250, icon: "🔬", cat: "Clin.Pathology", det: "General Health & Infection Screening" },
+        { name: "Widal (Typhoid) Test Tube", price: 250, old: 350, icon: "🌡️", cat: "Serology", det: "Typhoid Fever Diagnosis" },
+        { name: "Dengue Profile (NS1/IgM)", price: 900, old: 1300, icon: "🩸", cat: "Serology", det: "Complete Dengue Viral Screening" },
+        { name: "Full Body Health Package", price: 2499, old: 4999, icon: "🏥", cat: "Package", det: "60+ Tests for Total Health Checkup" }
+    ];
+
+    function loadTests(data) {
+        const grid = document.getElementById('testGrid');
+        grid.innerHTML = data.map(t => `
+            <div class="col-lg-4 col-md-6">
+                <div class="test-card">
+                    <span class="discount-badge">OFFER -20%</span>
+                    <div class="display-5 mb-3">${t.icon}</div>
+                    <small class="text-primary fw-bold text-uppercase ls-1" style="font-size:0.75rem">${t.cat}</small>
+                    <h4 class="fw-bold my-2 text-dark">${t.name}</h4>
+                    <p class="text-muted small mb-3">${t.det}</p>
+                    <div class="d-flex align-items-baseline mb-4">
+                        <span class="h3 fw-bold text-deep-blue m-0">₹${t.price}</span>
+                        <span class="text-muted text-decoration-line-through ms-3">₹${t.old}</span>
+                    </div>
+                    <a href="https://wa.me/919162502006?text=Hi, I want to book ${t.name}" class="btn btn-primary w-100 fw-bold rounded-pill py-3">BOOK NOW 🩺</a>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    function searchTest() {
+        const query = document.getElementById('testInput').value.toLowerCase();
+        const filtered = tests.filter(t => t.name.toLowerCase().includes(query) || t.cat.toLowerCase().includes(query));
+        loadTests(filtered);
+    }
+
+    loadTests(tests);
+</script>
+</body>
+</html>
